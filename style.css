@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+}
+
+body {
+	font-family: 'Patrick Hand', cursive;
+	margin: 0;
+}
+
+.message-form-container {
+	border-radius: 4px;
+	width: min(95%, 800px);
+	margin: 5rem auto;
+	box-shadow: 4px 7px 5px rgba(0, 0, 0, 0.25);
+	padding: 1rem 2rem !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#toast-container {
+	top: auto !important;
+	right: auto !important;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/* .message-form-container input {
+	display: block;
+	margin: 0.8rem 0;
+	border-radius: 4px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+#message {
+	width: clamp(200px, 100%, 100%);
+	margin: 1rem 0;
+	font-size: 18px;
+	padding: 0.5rem;
+}
+
+.message-form-container .submit-message {
+	display: block;
+	min-width: 30%;
+	padding: 1rem 0.8rem;
+	margin: 0;
+	font-size: 18px;
+	background-color: lightcyan;
+	color: black;
+	border: 1px solid lawngreen;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+	.message-form-container {
+		padding: 2rem 0.5rem;
+	}
+} */
