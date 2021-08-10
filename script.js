@@ -45,6 +45,7 @@ window.onload = function () {
 		secretMessage.classList.remove("hide");
 		secretMessage.textContent = decodedMessage;
 		resetLink.classList.remove("hide");
+		resetLink.href = window.location.origin + window.location.pathname;
 	}
 };
 
