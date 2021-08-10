@@ -31,7 +31,7 @@ messageForm.addEventListener("submit", (e) => {
 	const encodedMessage = btoa(e.target[0].value);
 	const urlParams = new URLSearchParams();
 	urlParams.set("message", encodedMessage);
-	messageLink.value = window.location.origin + "?" + urlParams;
+	messageLink.value = window.location.href + "?" + urlParams;
 });
 
 window.onload = function () {
